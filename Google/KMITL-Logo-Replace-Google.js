@@ -3,14 +3,15 @@
 // @namespace   github.com/phuwit.KMITL-Logo-Replace.Google
 // @match       https://*.google.com/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      https://github.com/phuwit
 // @description haha funny
+// @downloadURL https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/KMITL-Logo-Replace-Google.js
+// @homepageURL https://github.com/phuwit/KMITL-Logo-Replace
 // ==/UserScript==
 
 let new_logo = "https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/image/kmitl_logo_bw.svg";
 let old_logo_id = "100206365847567318724"
-                        https://www.google.com/u/1/ac/images/logo.gif?uid=100206365847567318724&service=google_gsuite
 
 function replaceSrc(srcValue) {
     var nodes = [];
