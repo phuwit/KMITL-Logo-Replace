@@ -3,7 +3,7 @@
 // @namespace   github.com/phuwit.KMITL-Logo-Replace.Google
 // @match       https://*.google.com/*
 // @grant       none
-// @version     1.1.3
+// @version     1.2
 // @author      https://github.com/phuwit
 // @description haha funny
 // @downloadURL https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/KMITL-Logo-Replace-Google.user.js
@@ -16,8 +16,23 @@ let new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main
 let old_logo_id = "100206365847567318724"
 
 function replaceSrc(srcValue) {
+    // probably less intensive matching via classname
+    var element = element.getElementsByClassName("gb_Hc gb_Ja gb_Ma");
+    
+    if (element.length > 0) {
+        for (var i = 0; i < element.length; i++) {
+            if (element[i].hasAttribute("src")) {
+                if (element[i].getAttribute("src").search(old_logo_id) != -1) {
+                    element[i].src = new_logo;
+                    break;
+                }
+            }
+        }
+    }
+    
+    // fallback matching method
     var nodes = [];
-    var element = document.getElementsByTagName("img");
+    element = document.getElementsByTagName("img");
 
     for (var i = 0; i < element.length; i++) {
         if (element[i].hasAttribute("src")) {
