@@ -8,7 +8,7 @@
 // @description haha funny
 // ==/UserScript==
 
-let new_logo = "TODO: update url after upload";
+let new_logo = "https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/image/kmitl_logo_bw.svg";
 let old_logo_id = "100206365847567318724"
                         https://www.google.com/u/1/ac/images/logo.gif?uid=100206365847567318724&service=google_gsuite
 
