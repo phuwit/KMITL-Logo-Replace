@@ -6,11 +6,11 @@
 // @version     1.1
 // @author      https://github.com/phuwit
 // @description haha funny
-// @downloadURL https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/KMITL-Logo-Replace-Google.js
+// @downloadURL https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/KMITL-Logo-Replace-Google.user.js
 // @homepageURL https://github.com/phuwit/KMITL-Logo-Replace
 // ==/UserScript==
 
-let new_logo = "https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/image/kmitl_logo_bw.svg";
+let new_logo = "https://cdn.jsdelivr.net/gh/phuwit/KMITL-Logo-Replace@main/Google/image/kmitl_logo_bw.min.svg";
 let old_logo_id = "100206365847567318724"
 
 function replaceSrc(srcValue) {
