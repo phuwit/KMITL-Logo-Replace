@@ -3,7 +3,7 @@
 // @namespace   github.com/phuwit.KMITL-Logo-Replace.Google
 // @match       https://*.google.com/*
 // @grant       none
-// @version     1.2
+// @version     1.2.1
 // @author      https://github.com/phuwit
 // @description haha funny
 // @downloadURL https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/KMITL-Logo-Replace-Google.user.js
