@@ -3,7 +3,7 @@
 // @namespace   github.com/phuwit.KMITL-Logo-Replace.Google
 // @match       https://*.google.com/*
 // @grant       none
-// @version     1.2.1
+// @version     1.3
 // @author      https://github.com/phuwit
 // @description haha funny
 // @downloadURL https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/KMITL-Logo-Replace-Google.user.js
@@ -16,32 +16,33 @@ let new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main
 let old_logo_id = "100206365847567318724"
 
 function replaceSrc(srcValue) {
-    // TODO: make it work
-    // // probably less intensive matching via classname
-    // let element = element.getElementsByClassName("gb_Hc gb_Ja gb_Ma");
-    
-    // if (element.length > 0) {
-    //     for (let i = 0; i < element.length; i++) {
-    //         if (element[i].hasAttribute("src")) {
-    //             if (element[i].getAttribute("src").search(old_logo_id) != -1) {
-    //                 element[i].src = new_logo;
-    //                 break;
-    //             }
-    //         }
-    //     }
-    // }
-    
-    // fallback matching method
-    let element = document.getElementsByTagName("img");
+    let element
 
-    for (let i = 0; i < element.length; i++) {
-        if (element[i].hasAttribute("src")) {
-            if (element[i].getAttribute("src").search(old_logo_id) != -1) {
-                element[i].src = new_logo;
-                break;
+    // probably less intensive matching via classname
+    element = document.getElementsByClassName("gb_Hc gb_Ja gb_Ma");
+    
+    if (element.length > 0) {
+        for (let i = 0; i < element.length; i++) {
+            if (element[i].hasAttribute("src")) {
+                if (element[i].getAttribute("src").search(old_logo_id) != -1) {
+                    element[i].src = new_logo;
+                    break;
+                }
             }
         }
     }
+    
+    // // fallback matching method
+    // element = document.getElementsByTagName("img");
+
+    // for (let i = 0; i < element.length; i++) {
+    //     if (element[i].hasAttribute("src")) {
+    //         if (element[i].getAttribute("src").search(old_logo_id) != -1) {
+    //             element[i].src = new_logo;
+    //             break;
+    //         }
+    //     }
+    // }
 }
 
 replaceSrc(old_logo_id);
