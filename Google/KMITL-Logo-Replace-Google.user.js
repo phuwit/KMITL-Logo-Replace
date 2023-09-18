@@ -3,14 +3,16 @@
 // @namespace   github.com/phuwit.KMITL-Logo-Replace.Google
 // @match       https://*.google.com/*
 // @grant       none
-// @version     1.1.2
+// @version     1.1.3
 // @author      https://github.com/phuwit
 // @description haha funny
 // @downloadURL https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/KMITL-Logo-Replace-Google.user.js
 // @homepageURL https://github.com/phuwit/KMITL-Logo-Replace
 // ==/UserScript==
 
-let new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/kmitl_logo_color.svg";
+// pick one: black and white, or color
+let new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/kmitl_logo_bw.svg";
+// let new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/kmitl_logo_color.svg";
 let old_logo_id = "100206365847567318724"
 
 function replaceSrc(srcValue) {
