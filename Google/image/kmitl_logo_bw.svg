@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320"
+   height="132"
+   viewBox="0 0 320 132"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       id="path1"
+       d="M 157.91914,112.70786 145.77612,66.705814 125.07128,112.88646 104.14915,66.055162 91.321026,111.57386 79.432185,94.186911 99.161806,19.11354 125.07128,76.135582 150.98196,19.11354 l 23.05361,93.57939 z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+    <path
+       id="path2"
+       d="M 41.943741,112.62366 H 26.500212 V 19.442896 h 15.443529 z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+    <path
+       id="path3"
+       d="M 259.84019,112.66203 V 19.462972 h 15.65411 v 77.724752 h 31.00592 l -10.41871,15.474306 z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+    <path
+       id="path4"
+       d="M 233.90706,35.223843 V 112.66212 H 218.44735 V 35.37104 H 192.53698 L 208.1975,19.329281 h 48.9332 v 15.894562 z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+    <path
+       id="path5"
+       d="M 176.93218,112.66203 V 33.734104 l 15.65168,-14.404913 v 93.332839 z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+    <path
+       id="path6"
+       d="M 69.568657,19.472932 H 88.75642 L 57.101071,66.055251 89.005699,112.6275 H 70.016029 L 37.696323,66.055251 Z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+    <path
+       id="path7"
+       d="m 192.57778,19.329217 h 17.71306 v 0.670167 h -17.71306 z"
+       style="fill:#f16322 icc-color(sRGB-IEC61966-2, 0.1, 0.94499207, 0.38798523, 0.13299561);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.304755" />
+  </g>
+</svg>
