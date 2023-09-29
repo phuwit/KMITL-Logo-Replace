@@ -1,4 +1,5 @@
 # KMITL-Logo-replace
+Userscript parser is required. [Violentmonkey](https://violentmonkey.github.io/) is reccommended.
 
 ## For Google
 [Install](https://github.com/phuwit/KMITL-Logo-Replace/raw/main/Google/KMITL-Logo-Replace-Google.user.js)
