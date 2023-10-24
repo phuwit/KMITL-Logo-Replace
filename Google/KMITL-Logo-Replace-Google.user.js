@@ -7,19 +7,19 @@
 // @version     1.5.1
 // @author      https://github.com/phuwit
 // @description haha funny
-// @downloadURL https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/KMITL-Logo-Replace-Google.user.js
+// @downloadURL https://phuwit.github.io/KMITL-Logo-Replace/Google/KMITL-Logo-Replace-Google.user.js
 // @homepageURL https://github.com/phuwit/KMITL-Logo-Replace
 // ==/UserScript==
 
 // EDIT THIS AREA VVV
 
     // pick one: black, or color
-    const new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/kmitl_color.svg";
-    // const new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/kmitl_black.svg";
-    // const new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/fake_kmitl_color.svg";
-    // const new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/fake_kmitl_black.svg";
-    // const new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/fake_kmutt_color.svg";
-    // const new_logo = "https://raw.githubusercontent.com/phuwit/KMITL-Logo-Replace/main/Google/image/fake_kmutt_black.svg";
+    const new_logo = "https://phuwit.github.io/KMITL-Logo-Replace/Google/image/kmitl_color.svg";
+    // const new_logo = "https://phuwit.github.io/KMITL-Logo-Replace/Google/image/kmitl_black.svg";
+    // const new_logo = "https://phuwit.github.io/KMITL-Logo-Replace/Google/image/fake_kmitl_color.svg";
+    // const new_logo = "https://phuwit.github.io/KMITL-Logo-Replace/Google/image/fake_kmitl_black.svg";
+    // const new_logo = "https://phuwit.github.io/KMITL-Logo-Replace/Google/image/fake_kmutt_color.svg";
+    // const new_logo = "https://phuwit.github.io/KMITL-Logo-Replace/Google/image/fake_kmutt_black.svg";
 
     // google user id
     // EXAMPLE : 
