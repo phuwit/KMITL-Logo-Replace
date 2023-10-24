@@ -4,7 +4,7 @@
 // @run-at document-end
 // @match       https://*.google.com/*
 // @grant       none
-// @version     1.5.1
+// @version     1.5.2
 // @author      https://github.com/phuwit
 // @description haha funny
 // @downloadURL https://phuwit.github.io/KMITL-Logo-Replace/Google/KMITL-Logo-Replace-Google.user.js
